@@ -17,8 +17,11 @@ function nowServing(katzDeliLine){
 function currentLine(line){
   for(var i = 0; i<line.length; i++)
   if (line === 0);
-  return "The line is currently empty.";
-  
+  console.log("The line is currently empty.");
+  else {
+    var newLine =[];
+    newLine.push(`The line is curently: ${i+1}. ${line[i]}.`);
+  }
 }
   
      

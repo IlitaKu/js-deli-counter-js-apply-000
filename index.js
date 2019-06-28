@@ -9,15 +9,15 @@ function nowServing(katzDeliLine){
     if (katzDeliLine < 0){
     return "There is nobody waiting to be served!";
   } else {
-     return "Curently serving" + katzDeliLine.shift();
+     return "Curently serving " + katzDeliLine.shift()+".";
 }
 }
 
 
 function currentLine(line){
-  for(var i = 0; i<line.length; i++){
-  if (line === 0);
+  if (line === 0){
   return"The line is currently empty.";
+  } else{
     var newLine =[];
     newLine.push(` ${i+1}. ${line[i]}.`);
  } 

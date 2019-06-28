@@ -22,3 +22,4 @@ function currentLine(line){
     newLine.push(` ${i+1}. ${line[i]}.`);
  return "The line is curently:"+ newLine.join(',');
 }
+}

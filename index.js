@@ -14,7 +14,9 @@ function nowServing(katzDeliLine){
      return katzDeliLine.slice(0)
 }
 
-
+function curentLine(line){
+  
+}
   
      
   

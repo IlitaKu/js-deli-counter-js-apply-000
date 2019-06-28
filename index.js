@@ -20,6 +20,5 @@ function currentLine(line){
   } else{
     var newLine =[];
     newLine.push(` ${i+1}. ${line[i]}.`);
- } 
- return "The line is curently:"+ newLine.join(',')
+ return "The line is curently:"+ newLine.join(',');
 }

@@ -5,10 +5,12 @@ function takeANumber(curentLine, name){
 }
 var i = 0;
 function nowServing(katzDeliLine){
-    if (katzDeliLine < 0){
+    if (katzDeliLine.length === 0){
     return "There is nobody waiting to be served!";
   } else {
-     return "Currently serving " + katzDeliLine.shift()+".";
+    var name = katzDeliLine[0];
+    katzDeliLine.splice(0,1);
+     return "Currently serving " + name +".";
 }
 }
 

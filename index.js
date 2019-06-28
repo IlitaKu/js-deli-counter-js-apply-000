@@ -23,6 +23,5 @@ function currentLine(line){
     var newLine =[];
     newLine.push(`The line is curently: ${i+1}. ${line[i]}.`);
 }
-  
  }    
   

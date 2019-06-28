@@ -4,7 +4,7 @@ function takeANumber(curentLine, name){
   curentLine.push(name);
   return `Welcome, ${name}. You are number ${currentLine + 1} in line.`; 
 }
-
+var i = 0;
 function nowServing(katzDeliLine){
     if (katzDeliLine < 0){
     return "There is nobody waiting to be served!";

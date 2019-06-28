@@ -29,5 +29,4 @@ function currentLine(x) {
     }
 }
 
-}
 

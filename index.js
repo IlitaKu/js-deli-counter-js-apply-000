@@ -13,6 +13,8 @@ function nowServing(katzDeliLine){
      console.log(`Curently serving ${katzDeliLine[i]}.`)
      return katzDeliLine.slice(0)
 }
+
+
   
      
   
